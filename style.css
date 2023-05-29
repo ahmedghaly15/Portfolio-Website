@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/try.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -58,7 +58,7 @@ nav ul li a:hover::after {
 } 
 
 .header-text {
-    margin-top: 15%;
+    margin-top: 17%;
     font-size: 30px;
     margin-left: 20px;
 }
@@ -99,29 +99,89 @@ nav ul li a:hover::after {
 }
 
 .header-welcome h1 span {
-    color: #04c1ae
-    ;
+    color: #04c1ae;
 }
 
 /* ############### About ##############  */
 
 #about {
     padding: 80px 0;
-    color: #ababab;
+    color: #818080;
+    margin-left: 20px;
 }
 
-.row {
+/* .about-subtitle h1 {
+    font-size: 40px;
+
+} */
+
+.subtitle {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0ea394;
+}
+
+.about-me-p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.tab-titles{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 20px 0 40px;
+    color: black;
 }
 
-.about-col-1 {
-    flex-basis: 35%;
+.tab-links {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #04c1ae;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
 
 }
 
-.about-col-1 img {
-    width: 100%;
-    border-radius: 15px;
+.tab-contents ul li span {
+    font-size: 17px;
+    font-weight: 500;
+    color: #15b2a2;
+}
+
+.tab-contents p {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #15b2a2;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tap{
+    display: block;
 }

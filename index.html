@@ -35,15 +35,57 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
-                    <img src="images/my_pic_4.jpg" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1>About Me</h1>
+                <div class="about-subtitle">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-me-p">Hi there, I'm Ahmed Ghaly, an experienced Flutter developer who is passionate about producing high-quality mobile applications. I'm expert in building cross-platform apps using Flutter, I have developed a deep understanding of Dart and the Flutter framework.
+                        My expertise includes designing beautiful and responsive layouts, utilizing efficient state management techniques, and integrating various APIs and third-party libraries to enhance my clients' applications. Additionally, I have extensive experience working with Firebase to provide robust back-end services such as authentication and real-time database integration.
+                        My passion for innovation drives me to stay up-to-date with industry changes, attend conferences, network with other developers, and read tech blogs. I believe that communication is key to successful collaboration and strive to work closely with my clients throughout the development process to ensure their vision is realized.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentap('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentap('experience')"">Experience</p>
+                        <p class="tab-links" onclick="opentap('education')"">Education</p>
+                    </div>
+                    <div class="tab-contents active-tap" id="skills">
+                        <ul>
+                            <li><span>Dart</span></li>
+                            <li><span>Flutter</span></li>
+                            <li><span>Bloc State Management</span></li>
+                            <li><span>RESTful APIs</span></li>
+                            <li><span>Firebase</span></li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Communication</span></li>
+                            <li><span>Teamwork</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <p>Have no experience yet.</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Kafr El-Sheikh University</span><br>Sep 2020 / July 2024</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentap(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tap");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tap");
+        }
+    </script>
 
 </body>
 </html>
