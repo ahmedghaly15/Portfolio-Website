@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/try.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #26dfe4;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+} 
+
+.header-text {
+    margin-top: 15%;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.header-welcome {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0.7;
+      transform: translateX(-50px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+.header-welcome img {
+    width: 40%;
+    height: 66%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    animation: moveInLeft 0.7s ease-in;
+}
+
+.header-welcome h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-welcome h1 span {
+    color: #04c1ae
+    ;
+}
+
+/* ############### About ##############  */
+
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
