@@ -515,3 +515,9 @@ nav .fa-solid{
         display: block;
     }
 }
+
+#msg{
+    color: #ff004f;
+    margin-top: -40px;
+    display: block;
+}
