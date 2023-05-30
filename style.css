@@ -6,7 +6,7 @@
 }
 
 body {
-    
+    background-color: #0c213e;
     color: #fff;
 }
 
@@ -106,14 +106,9 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
-    color: #818080;
+    color: #fff;
     margin-left: 20px;
 }
-
-/* .about-subtitle h1 {
-    font-size: 40px;
-
-} */
 
 .subtitle {
     font-size: 50px;
@@ -133,7 +128,6 @@ nav ul li a:hover::after {
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
-    color: black;
 }
 
 .tab-links {
@@ -245,16 +239,12 @@ nav ul li a:hover::after {
 }
 
 .work{
-    /* width: 100%; */
-    /* margin-bottom: 20px; */
     border-radius: 10px;
     position: relative;
-    /* animation: moveInLeft 1s ease-out; */
     overflow: hidden;
 }
 
 .work img{
-    /* width: 100%; */
     border-radius: 10px;
     display: block;
     width: 300px;
@@ -264,36 +254,6 @@ nav ul li a:hover::after {
     box-shadow: 0px 0px 20px #03e6cf;
     transition: transform 0.5s;
 }
-
-
-/* .work:nth-child(odd) {
-    margin-right: 50px;
-}
-
-@media (max-width: 768px) {
-.container {
-    flex-direction: column;
-}
-
-.work:last-child {
-    margin-bottom: 0;
-}
-} */
-
-
-/* @keyframes moveInLeft {
-0% {
-    opacity: 0;
-    transform: translateX(-50px);
-}
-80% {
-    transform: translateX(10px);
-}
-100% {
-    opacity: 1;
-    transform: translateX(0);
-}
-} */
 
 .work {
 margin-bottom: 20px;
@@ -309,7 +269,6 @@ text-align: center;
     font-size: 30px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    color: black;
   }
   
   .work p {
@@ -317,7 +276,6 @@ text-align: center;
     text-align: start;
     margin-top: 10px;
     line-height: 1.5;
-    color: black;
 }
 
 .work a {
@@ -357,7 +315,7 @@ text-align: center;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    color: black;
+    color: #fff;
     border: 2px solid #0ea394;
     padding: 14px 50px;
     border-radius: 6px;
@@ -395,7 +353,7 @@ text-align: center;
     font-size: 20px;
     font-weight:600;
     margin-top: 30px;
-    color: black;
+    color: #fff;
 }
 
 .contact-left a {
@@ -420,7 +378,7 @@ text-align: center;
     text-decoration: none;
     font-size: 40px;
     margin-right: 15px;
-    color: black;
+    color: #fff;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -458,4 +416,97 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* ##################### CSS For Small Screens ##################### */
+
+nav .fa-solid{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/phone-background.jpg);
+    }
+
+    .header-welcome img{
+        width: 40%;
+        height: 25%;
+        margin-bottom: 40%;
+        margin-left: 5%;
+    }
+
+    .header-text {
+        margin-top: 138%;
+        font-size: 16px;
+    }
+
+    .header-welcome h1 {
+        font-size: 30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #04c1ae;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav .fa-solid{
+        
+        position: absolute;
+        top: 25px;
+        left: 90%;
+     
+        cursor: pointer;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .subtitle{
+        font-size: 40px;
+    }
+    
+    .about-me-p {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+    .work img {
+        width: 400px;
+        height: 400px;   
+    }
+
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+
+    .contact-row{
+        display: block;
+    }
 }
