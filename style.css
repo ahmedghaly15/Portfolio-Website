@@ -117,13 +117,14 @@ nav ul li a:hover::after {
 
 .subtitle {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 10px;
     color: #0ea394;
 }
 
 .about-me-p {
     font-size: 16px;
+    text-align: start;
     line-height: 1.7;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -219,10 +220,152 @@ nav ul li a:hover::after {
 
 .services-list div p {
     font-size: 15px;
+    text-align: start;
     line-height: 1.5;
 }
 
 .services-list div:hover{
     background: #0ea394;
     transform: translateY(-20px);
+}
+
+/* ############### Portfolio ##############  */
+
+#portfolio{
+    padding: 50px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    /* width: 100%; */
+    /* margin-bottom: 20px; */
+    border-radius: 10px;
+    position: relative;
+    /* animation: moveInLeft 1s ease-out; */
+    overflow: hidden;
+}
+
+.work img{
+    /* width: 100%; */
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #03e6cf;
+    transition: transform 0.5s;
+}
+
+
+/* .work:nth-child(odd) {
+    margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+.container {
+    flex-direction: column;
+}
+
+.work:last-child {
+    margin-bottom: 0;
+}
+} */
+
+
+/* @keyframes moveInLeft {
+0% {
+    opacity: 0;
+    transform: translateX(-50px);
+}
+80% {
+    transform: translateX(10px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0);
+}
+} */
+
+.work {
+margin-bottom: 20px;
+text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px #1ce3cf;
+} 
+
+.work h3 {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    color: black;
+  }
+  
+  .work p {
+    font-size: 16px;
+    text-align: start;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: black;
+}
+
+.work a {
+    background: rgb(6, 173, 145);
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.work a:hover {
+    background: rgb(4, 187, 142);
+    color: #fff;
+    transform: scale(1.1);
+} 
+
+.layer{
+    height: 0;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    transition: height 0.5s;
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.see-more-btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    color: black;
+    border: 2px solid rgb(4, 187, 142);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+.see-more-btn:hover{
+    background: rgb(4, 187, 142);
+    color: #fff;
 }
