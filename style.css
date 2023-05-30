@@ -505,7 +505,7 @@ nav .fa-solid{
     .work img {
         width: 200px;
         height: 200px;
-        margin-left: 27%;
+        margin-left: 25%;
     }
 
     .work h3 {
@@ -515,6 +515,7 @@ nav .fa-solid{
 
     .work p {
         font-size: 14px;
+        text-align: center;
     }
 
     .work a {
