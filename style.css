@@ -353,19 +353,109 @@ text-align: center;
     height: 100%;
 }
 
-.see-more-btn{
+.btn{
     display: block;
     margin: 50px auto;
     width: fit-content;
     color: black;
-    border: 2px solid rgb(4, 187, 142);
+    border: 2px solid #0ea394;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.5s;
 }
 
-.see-more-btn:hover{
-    background: rgb(4, 187, 142);
+.btn:hover{
+    background: #0ea394;
     color: #fff;
+    font-weight: 500;
+}
+
+/* ############### Contact ##############  */
+
+#contact{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 30px;
+    color: black;
+}
+
+.contact-left a {
+    text-decoration: none;
+}
+
+.contact-left p i {
+    color: #0ea394;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.contact-left .phone-icon i{
+    font-size: 30px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #0ea394;
+    transform: translateY(-7px);
+}
+
+.btn.btn2{
+    font-size: 16px;
+    display: inline-block;
+    background: #0ea394;
+    color: #fff;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #363636;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
 }
