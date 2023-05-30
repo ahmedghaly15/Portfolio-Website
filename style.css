@@ -503,8 +503,24 @@ nav .fa-solid{
     }
 
     .work img {
-        width: 400px;
-        height: 400px;   
+        width: 200px;
+        height: 200px;
+        margin-left: 27%;
+    }
+
+    .work h3 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .work p {
+        font-size: 14px;
+    }
+
+    .work a {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
     .contact-left, .contact-right{
