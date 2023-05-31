@@ -89,12 +89,12 @@ nav ul li a:hover::after {
   }
 
 .header-welcome img {
-    width: 40%;
-    height: 66%;
+    width: 39%;
+    height: 65%;
     border-radius: 50%;
     position: absolute;
-    left: 50%;
-    bottom: 20%;
+    left: 55%;
+    bottom: 22%;
     animation: moveInLeft 1s ease-in;
 }
 
@@ -487,6 +487,10 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+
+    .header-welcome img {
+        left: 50%;
     }
 
     .subtitle{
