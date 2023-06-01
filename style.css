@@ -167,6 +167,12 @@ nav ul li a:hover::after {
 
 .tab-contents ul li span {
     font-size: 17px;
+    font-weight: 700;
+    color: #26dfe4;
+}
+
+.tab-contents ul li span .univ-span{
+    font-size: 17px;
     font-weight: 500;
     color: #26dfe4;
 }
