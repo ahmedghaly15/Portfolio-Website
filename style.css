@@ -244,18 +244,18 @@ nav ul li a:hover::after {
 }
 
 .work{
-    border-radius: 10px;
+    border-radius: 30px;
     position: relative;
     overflow: hidden;
 }
 
 .work img{
-    border-radius: 10px;
+    border-radius: 30px;
     display: block;
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 0px 20px #03e6cf;
     transition: transform 0.5s;
 }
@@ -421,6 +421,7 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    
 }
 
 /* ##################### CSS For Small Screens ##################### */
