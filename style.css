@@ -430,6 +430,21 @@ form .btn2{
     
 }
 
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0ea394;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 /* ##################### CSS For Small Screens ##################### */
 
 nav .fa-solid{
@@ -541,6 +556,13 @@ nav .fa-solid{
 
     .contact-row{
         display: block;
+    }
+
+    #scroll-top-btn{
+        height: 60px;
+        width: 60px;
+        padding: 15px;
+        font-size: 20px;
     }
 }
 

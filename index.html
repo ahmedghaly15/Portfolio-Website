@@ -213,6 +213,9 @@
         </div>
     </div>
 
+    <button id="scroll-top-btn"><i class="fa fa-arrow-up"></i></button>
+
+
     <script>
 
         var tablinks = document.getElementsByClassName("tab-links");
@@ -263,6 +266,23 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+    </script>
+
+    <script>
+        var scrollTopBtn = document.getElementById("scroll-top-btn");
+
+        window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollTopBtn.style.display = "block";
+        } else {
+            scrollTopBtn.style.display = "none";
+        }
+        };
+
+        scrollTopBtn.addEventListener("click", function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        });
     </script>
 
 </body>
