@@ -432,6 +432,7 @@ form .btn2{
 
 #scroll-top-btn {
     position: fixed;
+    display: none;
     bottom: 20px;
     right: 20px;
     background-color: #0ea394;
@@ -443,6 +444,7 @@ form .btn2{
     padding: 20px;
     font-size: 25px;
     cursor: pointer;
+    z-index: 9999;
 }
 
 /* ##################### CSS For Small Screens ##################### */
