@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Ghaly</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/4d0a025233.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,7 +27,7 @@
             </div>
             <div class="header-welcome">
                 <h1>Hi, I'm <span>Ahmed Ghaly</span></h1>
-                <img src="images/my_pic_4.jpg" alt="">
+                <img src="assets/images/my_pic_4.jpg" alt="My-Picture" class="my-image">
             </div>
         </div>
     </div>
@@ -53,9 +53,14 @@
                         <ul>
                             <li><span>Dart</span></li>
                             <li><span>Flutter</span></li>
-                            <li><span>Bloc State Management</span></li>
+                            <li><span>OOP</span></li>
+                            <li><span>State Management (Cubit)</span></li>
                             <li><span>RESTful APIs</span></li>
                             <li><span>Firebase</span></li>
+                            <li><span>Architecture Pattern: MVVM</span></li>
+                            <li><span>Clean Architecture</span></li>
+                            <li><span>Git</span></li>
+                            <li><span>GitHub</span></li>
                             <li><span>Problem Solving</span></li>
                             <li><span>Communication</span></li>
                             <li><span>Teamwork</span></li>
@@ -114,7 +119,7 @@
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/projects/akalat.png" alt="">
+                    <img src="assets/images/projects/akalat.png" alt="">
                     <div class="layer">
                         <h3>Akalat App</h3>
                         <p>The App contains a vast library of different categories of meals, users can easily browse through a wide variety of recipes.</p>
@@ -122,7 +127,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/chatter.jpg" alt="">
+                    <img src="assets/images/projects/chatter.jpg" alt="">
                     <div class="layer">
                         <h3>Chatter App</h3>
                         <p>The App allows users to communicate with their friends and family. Users find an easy communication, and a search bar to find specific conversations.</p>
@@ -130,7 +135,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/cinehub.png" alt="">
+                    <img src="assets/images/projects/cinehub.png" alt="">
                     <div class="layer">
                         <h3>CineHub App</h3>
                         <p>The App helps the users find an entertaining world. Users can browse and divcover many different genres of incredible movies.</p>
@@ -138,7 +143,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/planner.png" alt="">
+                    <img src="assets/images/projects/planner.png" alt="">
                     <div class="layer">
                         <h3>Planner App</h3>
                         <p>The App helps users manage their daily tasks and stay organized. Planner makes it easy to stay focused and productive.</p>
@@ -146,7 +151,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/kittycat.png" alt="">
+                    <img src="assets/images/projects/kittycat.png" alt="">
                     <div class="layer">
                         <h3>KittyCat App</h3>
                         <p>The App is for cats lovers. It provides a great knowledge to help them know how to breed cats and take care of them.</p>
@@ -154,7 +159,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/flutter-icon.png" alt="">
+                    <img src="assets/images/projects/flutter-icon.png" alt="">
                     <div class="layer">
                         <h3>Social App</h3>
                         <p>The app is designed to help users connect and interact with friends, family, and other people in a social environment. With its intuitive user interface, users can easily engage with others.</p>
@@ -162,7 +167,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/universe.jpg" alt="">
+                    <img src="assets/images/projects/universe.jpg" alt="">
                     <div class="layer">
                         <h3>Universe App</h3>
                         <p>The App allows customers can browse, search for, and purchase items through the app using various payment methods.</p>
@@ -170,7 +175,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/projects/yogamation.png" alt="">
+                    <img src="assets/images/projects/yogamation.png" alt="">
                     <div class="layer">
                         <h3>Yogamation App</h3>
                         <p>The App is an excellent animation resource for beginner Flutter developers, who aim to improve their skills in animations.</p>
@@ -215,75 +220,9 @@
 
     <button id="scroll-top-btn"><i class="fa fa-arrow-up"></i></button>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentap(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tap");
-            }
-
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tap");
-        }
-
-    </script>
-
-    <script>
-        
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-
-    </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzSO6pHD2hwi2BnJVKWaoG1-LYt0KoYAfGGyI4S9JHwWAJA7UUmUpDUpv0agOxIR_I/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                }, 5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-
-    <script>
-        var scrollTopBtn = document.getElementById("scroll-top-btn");
-
-        window.onscroll = function() {
-        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-            scrollTopBtn.style.display = "block";
-        } else {
-            scrollTopBtn.style.display = "none";
-        }
-        };
-
-        scrollTopBtn.addEventListener("click", function() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        });
-    </script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
