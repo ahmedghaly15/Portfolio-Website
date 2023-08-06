@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ghaly</title>
+    <link rel="stylesheet" href="/app/css/style.css">
+    <script src="https://kit.fontawesome.com/4d0a025233.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Flutter Developer</p>
+            </div>
+            <div class="header-welcome">
+                <h1>Hi, I'm <span>Ahmed Ghaly</span></h1>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="0" y="-10" href="/assets/images/me.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- ############### About ############## -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-subtitle">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-me-p">Hi there, I'm Ahmed Ghaly, an experienced Flutter developer who is passionate about producing high-quality mobile applications. I'm expert in building cross-platform apps using Flutter, I have developed a deep understanding of Dart and the Flutter framework.
+                        My expertise includes designing beautiful and responsive layouts, utilizing efficient state management techniques, and integrating various APIs and third-party libraries to enhance my clients' applications. My focus isalways on delivering high-quality, innovative mobile apps that exceed expectations.
+                        <br><br>Additionally, I have extensive experience working with Firebase to provide robust back-end services such as authentication and real-time database integration.
+                        My passion for innovation drives me to stay up-to-date with industry changes, attend conferences, network with other developers, and read tech blogs.
+                        <br><br>I believe that communication is key to successful collaboration and strive to work closely with my clients throughout the development process to ensure their vision is realized.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentap('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentap('experience')"">Experience</p>
+                        <p class="tab-links" onclick="opentap('education')"">Education</p>
+                    </div>
+                    <div class="tab-contents active-tap" id="skills">
+                        <ul>
+                            <li><span>Dart</span></li>
+                            <li><span>Flutter</span></li>
+                            <li><span>OOP</span></li>
+                            <li><span>State Management (Cubit)</span></li>
+                            <li><span>RESTful APIs</span></li>
+                            <li><span>Firebase</span></li>
+                            <li><span>Architecture Pattern: MVVM</span></li>
+                            <li><span>Clean Architecture</span></li>
+                            <li><span>Git</span></li>
+                            <li><span>GitHub</span></li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Communication</span></li>
+                            <li><span>Teamwork</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <p>Have no experience yet.</p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Faculty of Artificial Intelligence<br><span class="univ-span">Kafr El-Sheikh University</span> </span><br>Sep 2020 / July 2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ############### Services ############## -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Cross-platform mobile app development</h2>
+                    <p>Building high-quality, cross-platform mobile apps that work on both Android and iOS devices. Create custom mobile apps for businesses and individuals with fast development time and excellent performance.</p>
+                </div>
+                <div>
+                    <h2>Custom UI/UX design</h2>
+                    <p>Develop custom UI designs that are visually appealing and user-friendly. Create unique UIs tailored to the client's preferences and requirements, offering users an engaging experience while using the app.</p>
+                </div>
+                <div>
+                    <h2>App maintenance and support</h2>
+                    <p>Mobile apps need continuous maintenance and support services to ensure they remain up-to-date with emerging technologies and trends. As a Flutter developer, I can offer ongoing maintenance and support services, including debugging, compatibility updates, and troubleshooting, to keep the app running smoothly.</p>
+                </div>
+                <div>
+                    <h2>Integration with third-party APIs</h2>
+                    <p>Many mobile apps require integration with third-party APIs to add more functionalities such as payment processing or social media sharing. As a Flutter developer, I can integrate these APIs seamlessly into the app, ensuring it runs smoothly, enhances user experience, and achieves its intended purpose.</p>
+                </div>
+                <div>
+                    <h2>App testing and quality assurance</h2>
+                    <p>Testing is a critical aspect of app development to ensure the app functions effectively without errors or bugs. As a Flutter developer, I can conduct thorough testing and quality assurance on the app's usability, functionality, security, and performance to identify potential problems before launch and ensure the app meets the client's requirements.</p>
+                </div>
+                <div>
+                    <h2>Consultation and advice</h2>
+                    <p>As a Flutter developer, I can offer consultation and guidance throughout the app development process, offering recommendations on features, design, and optimization to enhance the app's usability, functionality, and overall success in achieving business goals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ############### My Work ############## -->
+
+    <div id="my-work">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/assets/images/projects/akalat.png" alt="">
+                    <div class="layer">
+                        <h3>Akalat App</h3>
+                        <p>The App contains a vast library of different categories of meals, users can easily browse through a wide variety of recipes.</p>
+                        <a href="https://github.com/ahmedghaly15/Akalat-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/chatter.jpg" alt="">
+                    <div class="layer">
+                        <h3>Chatter App</h3>
+                        <p>The App allows users to communicate with their friends and family. Users find an easy communication, and a search bar to find specific conversations.</p>
+                        <a href="https://github.com/ahmedghaly15/Chatter-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/cinehub.png" alt="">
+                    <div class="layer">
+                        <h3>CineHub App</h3>
+                        <p>The App helps the users find an entertaining world. Users can browse and divcover many different genres of incredible movies.</p>
+                        <a href="https://github.com/ahmedghaly15/CineHub-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/planner.png" alt="">
+                    <div class="layer">
+                        <h3>Planner App</h3>
+                        <p>The App helps users manage their daily tasks and stay organized. Planner makes it easy to stay focused and productive.</p>
+                        <a href="https://github.com/ahmedghaly15/To-Do-Planner-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/kittycat.png" alt="">
+                    <div class="layer">
+                        <h3>KittyCat App</h3>
+                        <p>The App is for cats lovers. It provides a great knowledge to help them know how to breed cats and take care of them.</p>
+                        <a href="https://github.com/ahmedghaly15/KittyCat-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/flutter-icon.png" alt="">
+                    <div class="layer">
+                        <h3>Linkup App</h3>
+                        <p>The app is designed to help users connect and interact with friends, family, and other people in a social environment. With its intuitive user interface, users can easily engage with others.</p>
+                        <a href="https://github.com/ahmedghaly15/Linkup-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/universe.jpg" alt="">
+                    <div class="layer">
+                        <h3>Universe App</h3>
+                        <p>The App allows customers can browse, search for, and purchase items through the app using various payment methods.</p>
+                        <a href="https://github.com/ahmedghaly15/Universe-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/images/projects/yogamation.png" alt="">
+                    <div class="layer">
+                        <h3>Yogamation App</h3>
+                        <p>The App is an excellent animation resource for beginner Flutter developers, who aim to improve their skills in animations.</p>
+                        <a href="https://github.com/ahmedghaly15/YogaMation-App" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ahmedghaly15?page=1&tab=repositories" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ############### Contact ############## -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <a href="mailto:ahmedghaly0767@gmail.com" target="_blank"><p><i class="fa-solid fa-paper-plane"></i> ahmedghaly0767@gmail.com</p></a>
+                    <p class="phone-icon"><i class="fa-solid fa-square-phone"></i> 01097783245</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ahmed-ghaly15/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ahmedghaly15" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/realaboghalyy" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/aboghaly5/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100011409033548" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="/assets/CV/Ahmed Ghaly's CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="scroll-top-btn"><i class="fa fa-arrow-up"></i></button>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="/app/js/main.js"></script>
+
+</body>
+</html>
