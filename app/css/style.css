@@ -510,12 +510,12 @@ nav .fa-solid{
     .home__img{
         width: 48%;
         left: 50%;
-        top: 110px;
+        top: 175px;
     }
 
 
     .header-text {
-        margin-top: 50px;
+        margin-top: -20px;
         font-size: 18px;
         font-weight: 500;
     }
@@ -611,13 +611,13 @@ nav .fa-solid{
     }
 
     .social-icons{
-        margin-top: 90px;
+        margin-top: 80px;
         display: flex;
         flex-direction: column;
     }
 
     .btn.btn2{
-        margin-top: 160px;
+        margin-top: 240px;
     } 
 
     .btn.submit{
