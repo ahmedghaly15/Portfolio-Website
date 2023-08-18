@@ -7,15 +7,15 @@ You can visit the portfolio from here: https://ahmedghaly15.github.io/Portfolio-
 ## Table of Contents
 
 - [About Me](#about-me)
-- [Services](#services)
-- [My Work](#my-work)
+- [Expertise](#expertise)
+- [Portfolio](#portfolio)
 - [Contact Me](#contact-me)
 
 ## About Me
 
 Hi there, I'm Ahmed Ghaly, an experienced Flutter developer who is passionate about producing high-quality mobile applications. I'm expert in building cross-platform apps using Flutter, I have developed a deep understanding of Dart and the Flutter framework. My expertise includes designing beautiful and responsive layouts, utilizing efficient state management techniques, and integrating various APIs and third-party libraries to enhance my clients' applications. Additionally, I have extensive experience working with Firebase to provide robust back-end services such as authentication and real-time database integration. My passion for innovation drives me to stay up-to-date with industry changes, attend conferences, network with other developers, and read tech blogs. I believe that communication is key to successful collaboration and strive to work closely with my clients throughout the development process to ensure their vision is realized.
 
-## Services
+## Expertise
 
 - Cross-platform mobile app development
 - Custom UI/UX design
@@ -24,7 +24,7 @@ Hi there, I'm Ahmed Ghaly, an experienced Flutter developer who is passionate ab
 - App testing and quality assurance
 - Consultation and advice
 
-## My Work
+## Portfolio
 
 - [Akalat-App](https://github.com/ahmedghaly15/Akalat-App)
 - [Chatter-App](https://github.com/ahmedghaly15/Chatter-App)
