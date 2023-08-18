@@ -11,24 +11,25 @@
 <body>
     <div id="header">
         <div class="container">
-            
             <nav>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#my-work">My Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#my-work">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me!</a></li>
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>Flutter Developer</p>
+            <div class="hello">
+                <h3>Hello, I'm</h3>
+                <h1><span>Ahmed Ghaly</span></h1>
             </div>
             <div class="header-welcome">
-                <h1>Hi, I'm <span>Ahmed Ghaly</span></h1>
-
+                <div class="header-text">
+                    <p>And I'm a <span class="multiple-text">Flutter Developer</span></p>
+                </div>
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <mask id="mask0" mask-type="alpha">
@@ -60,9 +61,14 @@
 
     <div id="about">
         <div class="container">
-            <div class="row">
+            <div class="row"> 
+                <h1 class="subtitle">About Me</h1>
+
+                <div class="about-img">
+                    <img src="assets/images/me.jpeg" alt="">
+                </div>   
                 <div class="about-subtitle">
-                    <h1 class="subtitle">About Me</h1>
+                    
                     <p class="about-me-p">Hi there, I'm Ahmed Ghaly, an experienced Flutter developer who is passionate about producing high-quality mobile applications. I'm expert in building cross-platform apps using Flutter, I have developed a deep understanding of Dart and the Flutter framework.
                         My expertise includes designing beautiful and responsive layouts, utilizing efficient state management techniques, and integrating various APIs and third-party libraries to enhance my clients' applications. My focus isalways on delivering high-quality, innovative mobile apps that exceed expectations.
                         <br><br>Additionally, I have extensive experience working with Firebase to provide robust back-end services such as authentication and real-time database integration.
@@ -107,7 +113,7 @@
     <!-- ############### Services ############## -->
     <div id="services">
         <div class="container">
-            <h1 class="subtitle">My Services</h1>
+            <h1 class="subtitle">Expertise</h1>
             <div class="services-list">
                 <div>
                     <h2>Cross-platform mobile app development</h2>
@@ -141,7 +147,7 @@
 
     <div id="my-work">
         <div class="container">
-            <h1 class="subtitle">My Work</h1>
+            <h1 class="subtitle">Portfolio</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="assets/images/projects/akalat.png" alt="">
@@ -218,7 +224,7 @@
         <div class="container">
             <div class="contact-row">
                 <div class="contact-left">
-                    <h1 class="subtitle">Contact Me</h1>
+                    <h1 class="subtitle">Contact Me!</h1>
                     <a href="mailto:ahmedghaly0767@gmail.com" target="_blank"><p><i class="fa-solid fa-paper-plane"></i> ahmedghaly0767@gmail.com</p></a>
                     <p class="phone-icon"><i class="fa-solid fa-square-phone"></i> 01097783245</p>
                     <!-- <div class="social-icons">
@@ -244,6 +250,8 @@
     </div>
 
     <button id="scroll-top-btn"><i class="fa fa-arrow-up"></i></button>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 

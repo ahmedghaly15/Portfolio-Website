@@ -1,17 +1,17 @@
 const sr = new ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 1500,
-    delay: 150,
+    // origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    delay: 200,
     });
 
 
-    sr.reveal('.header-text, .about-me-p, .tab-contents.active-tap, .header-welcome, .work-list, .contact-row',{}); 
-    // sr.reveal('.header-text, .about-me-p, .tab-contents.active-tap, .header-welcome, .services-list, .work-list, .contact-row',{}); 
-    sr.reveal('.home__img, .subtitle, .tab-links.active-link',{delay: 400}); 
+    sr.reveal('.hello, .header-text, .tab-links.active-link, .subtitle', { origin:'top' })
+
+    sr.reveal('.services-list, .work-list, .contact-row, .tab-contents.active-tap, .social-icons, .btn, .btn.btn2, .btn.submit', { origin:'bottom' }); 
     
-    sr.reveal('.social-icons',{ interval: 200}); 
-    sr.reveal('.btn, .btn.btn2',{interval: 100}); 
+    sr.reveal('.hello h1, .about-img, .contact-left', { origin:'left' }); 
+    sr.reveal('.about-me-p, .home__img, .contact-right', { origin:'right' }); 
 
 
 
@@ -77,4 +77,12 @@ const sr = new ScrollReveal({
     scrollTopBtn.addEventListener("click", function() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+    });
+
+    const typed = new Typed('.multiple-text',{
+        strings: ['Flutter Developer', 'Mobile App Developer'],
+        typeSpeed:100,
+        backSpeed:120,
+        delay:1000,
+        loop:true
     });
