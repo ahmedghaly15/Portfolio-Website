@@ -29,8 +29,9 @@ body {
 }
 
 .container {
-    padding: 10px 10px;
-    margin-left: 20px;
+    padding: 10px 0px 0px 0px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 nav {
@@ -43,7 +44,8 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 nav ul li a {
@@ -142,12 +144,11 @@ nav ul li a:hover::after {
 #about {
     padding: 80px 0;
     color: #fff;
-    margin-left: 20px;
 }
 
 .row {
     display: flex;
-        align-items: flex-start;
+    align-items: flex-start;
 }
 
 .about-img img{
@@ -237,7 +238,6 @@ nav ul li a:hover::after {
 
 #services {
     padding: 30px 0;
-    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -278,8 +278,6 @@ nav ul li a:hover::after {
 
 #my-work{
     padding: 50px 0;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .work-list{
@@ -383,11 +381,6 @@ nav ul li a:hover::after {
 
 /* ############### Contact ##############  */
 
-#contact{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .contact-row{
     display: flex;
     justify-content: space-between;
@@ -425,7 +418,6 @@ nav ul li a:hover::after {
 
 .social-icons{
     margin-top: 40px;
-    /* margin-left: 20px; */
     display: flex;
     flex-direction: column;
     align-self: flex-end;
@@ -442,7 +434,6 @@ nav ul li a:hover::after {
 
 .social-icons a:hover{
     color: #41557e;
-    /* #10aef8 */
     transform: translateY(-7px);
 }
 
@@ -453,7 +444,6 @@ nav ul li a:hover::after {
     border-color: #a42b8a;
     color: #fff;
     margin-top: 40px;
-    /* margin-left: 20px; */
 }
 
 .btn.submit{
@@ -479,12 +469,11 @@ form input, form textarea{
     border-radius: 6px;
 }
 
-form .btn2{
+form .btn.submit{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-    
 }
 
 #scroll-top-btn {
@@ -516,11 +505,6 @@ nav .fa-solid{
         background-image: url(../../assets/images/smartphone-with-user-interface-concept\ \(1\).jpg);
     }
 
-    .container {
-        
-        margin-left: 10px;
-    }
-
     .home__img{
         width: 48%;
         left: 50%;
@@ -550,8 +534,8 @@ nav .fa-solid{
         background: #41557e;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -220px;
+        width: 220px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -586,9 +570,10 @@ nav .fa-solid{
     }
     
     .about-img img{
-        width: 380px;
-        height: 380px;
+        width: 100%;
+        height: 100%;
         margin-left: 0px;
+        padding-right: 10px;
         margin-bottom: 10px;
     }
 
