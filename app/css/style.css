@@ -803,3 +803,91 @@ nav .fa-solid{
         margin-top: 0px;
     }
 }
+
+@media screen and (min-width: 768px){
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .header-text {
+        font-size: 28px;
+    }
+    
+    .hello h1 {
+        font-size: 60px;
+    }
+    .hello h3 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .home__img{
+        width: 40%;
+        left: 50%;
+        top: 180px;
+    }
+
+    .btn.btn2{
+        margin-top: 100px;
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    
+
+    .subtitle{
+        font-size: 45px;
+    }
+
+    #about{
+        padding: 60px 0;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+    .about-img img{
+        padding: 0px 100px;
+        margin-bottom: 20px;
+    }
+
+    .about-me-p {
+        font-size: 15px;
+    }
+
+    .tab-links {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .btn{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+
+    .contact-left{
+        flex-basis: 50%;
+        
+    }
+    
+    .contact-right{
+        flex-basis: 60%;
+    }
+
+    .contact-left p{
+        font-size: 16px;
+    }
+
+    .contact-left p i {
+        font-size: 18px;
+    }
+    
+    .contact-left .phone-icon i{
+        font-size: 22px;
+    }
+
+    form .btn.submit{
+        padding: 12px 40px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+}
