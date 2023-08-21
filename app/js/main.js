@@ -23,7 +23,7 @@ const sr = new ScrollReveal({
     }
 
     function closemenu() {
-        sidemenu.style.right = "-220px";
+        sidemenu.style.right = "-210px";
     }
 
     
