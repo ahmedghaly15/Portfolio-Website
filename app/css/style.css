@@ -500,6 +500,7 @@ nav .fa-solid{
 }
 
 
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(../../assets/images/smartphone-with-user-interface-concept\ \(1\).jpg);
@@ -653,157 +654,6 @@ nav .fa-solid{
     display: block;
 }
 
-@media only screen and (max-width: 320px){
-    .header-text {
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 100px;
-    }
-
-    .home__img{
-        width: 45%;
-        left: 50%;
-        top: 220px;
-    }
-
-    .hello h1 {
-        font-size: 25px;
-    }
-
-    .hello h3 {
-        font-size: 18px;
-    }
-
-    nav .fa-solid{
-        display: block;
-        font-size: 20px;
-    }
-
-
-    .social-icons a{
-        font-size: 35px;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-    }
-
-    .btn.btn2{
-        margin-top: 100px;
-        padding: 12px 30px;
-        font-size: 14px;
-    }
-    
-    #about{
-        padding: 40px 0;
-    }
-
-    .subtitle{
-        font-size: 25px;
-    }
-
-    .about-me-p {
-        font-size: 12px;
-        padding-right: 45px;
-    }
-
-    .tab-links {
-        font-size: 15px;
-    }
-
-    .tab-contents ul li span {
-        font-size: 13px;
-        font-weight: 600;
-    }
-
-    .tab-contents ul li span .univ-span{
-        font-size: 13px;
-        font-weight: 500;
-        color: #26dfe4;
-    }
-
-    .tab-contents ul li{
-        font-size: 13px;
-    }
-
-    #services {
-        padding: 20px 0;
-    }
-
-    .services-list div h2{
-        font-size: 18px;
-    }
-    
-    .services-list div p {
-        font-size: 13px;
-        text-align: center;
-    }
-
-    #my-work{
-        padding: 40px 0;
-    }
-
-    .work-list{
-        grid-gap: 45px;
-        margin-top: 40px;
-        padding-right: 25px;
-    }
-
-    .work{
-        width: 140%;
-    }
-    
-    .work img{
-        width: 100%;
-        height: 120px;
-    }
-
-    
-    .work h3 {
-        font-size: 16px;
-    }
-
-    .work p {
-        font-size: 12px;
-    }
-    
-    .work a {
-        padding: 10px 14px;
-        font-size: 12px;
-    }
-    
-    .btn{
-        margin: 30px auto;
-        padding: 10px 40px;
-        font-size: 14px;
-    }
-
-    .contact-left p{
-        font-size: 14px;
-        font-weight:500;
-    }
-    
-    .contact-left p i {
-        font-size: 18px;
-    }
-    
-    .contact-left .phone-icon i{
-        font-size: 22px;
-        margin-bottom: 10px;
-    }
-
-    form input, form textarea{
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    form .btn.submit{
-        padding: 10px 40px;
-        font-size: 14px;
-        margin-top: 0px;
-    }
-}
-
 @media screen and (min-width: 768px){
     nav ul li a {
         font-size: 20px;
@@ -889,5 +739,175 @@ nav .fa-solid{
         padding: 12px 40px;
         margin-top: 0px;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .header-text {
+        font-size: 28px;
+    }
+    
+    .hello h1 {
+        font-size: 60px;
+    }
+    .hello h3 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .home__img{
+        width: 40%;
+        left: 50%;
+        top: 180px;
+    }
+
+    .btn.btn2{
+        margin-top: 100px;
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    
+    .subtitle{
+        font-size: 45px;
+    }
+
+    #about{
+        padding: 60px 0;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+    .about-img img{
+        padding: 0px 100px;
+        margin-bottom: 20px;
+    }
+
+    .about-me-p {
+        font-size: 15px;
+    }
+
+    .tab-links {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .btn{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+
+    .contact-left{
+        flex-basis: 50%;
+        
+    }
+    
+    .contact-right{
+        flex-basis: 60%;
+    }
+
+    .contact-left p{
+        font-size: 16px;
+    }
+
+    .contact-left p i {
+        font-size: 18px;
+    }
+    
+    .contact-left .phone-icon i{
+        font-size: 22px;
+    }
+
+    form .btn.submit{
+        padding: 12px 40px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 601px){
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .header-text {
+        font-size: 25px;
+    }
+    
+    .hello h1 {
+        font-size: 50px;
+    }
+    .hello h3 {
+        font-size: 28px;
+        margin-top: 40px;
+    } 
+
+    .subtitle{
+        font-size: 40px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .about-img img{
+        margin-bottom: 20px;
+    }
+
+    .about-me-p {
+        font-size: 15px;
+    }
+
+    .tab-links {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .btn{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+
+    .contact-left{
+        flex-basis: 50%;
+        
+    }
+    
+    .contact-right{
+        flex-basis: 60%;
+    }
+
+    .contact-left p{
+        font-size: 16px;
+    }
+
+    .contact-left p i {
+        font-size: 18px;
+    }
+    
+    .contact-left .phone-icon i{
+        font-size: 22px;
+    }
+
+    form .btn.submit{
+        padding: 12px 40px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home__img{
+        width: 40%;
+        left: 50%;
+        top: 100px;
+    }
+
+    .about-img img{
+        width: 120%;
     }
 }
