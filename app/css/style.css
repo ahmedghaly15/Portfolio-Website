@@ -88,7 +88,6 @@ nav ul li a:hover::after {
     flex-wrap: wrap;
 }
 
-
 .home__img {
     position: absolute;
     right: 0;
@@ -96,7 +95,7 @@ nav ul li a:hover::after {
     width: 400px;
     left: 70%;
     top: -100px; 
-    margin-top: 17%;
+    margin-top: 18%;
 }
 
 .home__blob {
@@ -204,7 +203,6 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
-
 }
 
 .tab-contents ul li span {
@@ -557,7 +555,7 @@ nav .fa-solid{
 
     nav ul .fa-solid{
         position:relative;
-        top: -310px;
+        top: -270px;
         left: 25px;
         cursor: pointer;
     }
@@ -654,93 +652,6 @@ nav .fa-solid{
     display: block;
 }
 
-@media screen and (min-width: 768px){
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    .header-text {
-        font-size: 28px;
-    }
-    
-    .hello h1 {
-        font-size: 60px;
-    }
-    .hello h3 {
-        font-size: 35px;
-        margin-top: 20px;
-    }
-
-    .home__img{
-        width: 40%;
-        left: 50%;
-        top: 180px;
-    }
-
-    .btn.btn2{
-        margin-top: 100px;
-        padding: 12px 40px;
-        font-size: 16px;
-    }
-    
-
-    .subtitle{
-        font-size: 45px;
-    }
-
-    #about{
-        padding: 60px 0;
-    }
-    
-    .row{
-        flex-direction: column;
-    }
-    .about-img img{
-        padding: 0px 100px;
-        margin-bottom: 20px;
-    }
-
-    .about-me-p {
-        font-size: 15px;
-    }
-
-    .tab-links {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-
-    .btn{
-        padding: 12px 40px;
-        font-size: 16px;
-    }
-
-    .contact-left{
-        flex-basis: 50%;
-        
-    }
-    
-    .contact-right{
-        flex-basis: 60%;
-    }
-
-    .contact-left p{
-        font-size: 16px;
-    }
-
-    .contact-left p i {
-        font-size: 18px;
-    }
-    
-    .contact-left .phone-icon i{
-        font-size: 22px;
-    }
-
-    form .btn.submit{
-        padding: 12px 40px;
-        margin-top: 0px;
-        font-size: 16px;
-    }
-}
 
 @media screen and (max-width: 767px) {
     nav ul li a {
@@ -829,7 +740,7 @@ nav .fa-solid{
     }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (max-width: 700px){
     nav ul li a {
         font-size: 16px;
     }
@@ -837,10 +748,15 @@ nav .fa-solid{
     .header-text {
         font-size: 25px;
     }
+
+    .home__img {
+        margin-top: 18%;
+    }
     
     .hello h1 {
         font-size: 50px;
     }
+
     .hello h3 {
         font-size: 28px;
         margin-top: 40px;
@@ -854,7 +770,7 @@ nav .fa-solid{
         flex-direction: column;
     }
 
-    .about-img img{
+    .about-img {
         margin-bottom: 20px;
     }
 
@@ -900,14 +816,119 @@ nav .fa-solid{
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 495px){
+    .header-text {
+        font-size: 18px;
+    }
+
+    .hello h1 {
+        font-size: 35px;
+    }
+    .hello h3 {
+        font-size: 25px;
+    }
+
     .home__img{
         width: 40%;
         left: 50%;
-        top: 100px;
+        top: 220px;
+    }
+
+    .social-icons{
+        margin-top: 30px;
+    }
+
+    .social-icons a{
+        font-size: 40px;
+    }
+
+    .btn.btn2{
+        margin-top: 100px;
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .subtitle{
+        font-size: 35px;
+    }
+
+    #about{
+        padding: 40px 0;
+    }
+
+    .row{
+        flex-direction: column;
     }
 
     .about-img img{
-        width: 120%;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .about-me-p {
+        font-size: 14px;
+    }
+
+    .tab-links {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .tab-contents ul li span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .tab-contents ul li span .univ-span{
+        font-size: 14px;
+    }
+    
+    .tab-contents p {
+        font-size: 14px;
+    }
+
+    .tab-contents ul li {
+        font-size: 14px;
+    }
+
+    #services{
+        padding: 20px 0px;
+    }
+
+    #my-work{
+        padding: 30px 0px;
+    }
+
+
+    .work img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .work h3 {
+        font-size: 20px;
+    }
+
+    .work p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .work a {
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+
+    .btn{
+        padding: 12px 35px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    form .btn.submit{
+        padding: 12px 40px;
+        font-size: 14px;
     }
 }
+
