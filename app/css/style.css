@@ -415,7 +415,7 @@ nav ul li a:hover::after {
 }
 
 .social-icons{
-    margin-top: 40px;
+    margin-top: 24px;
     display: flex;
     flex-direction: column;
     align-self: flex-end;
@@ -441,7 +441,7 @@ nav ul li a:hover::after {
     background: #a42b8a;
     border-color: #a42b8a;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 24px;
 }
 
 .btn.submit{
@@ -677,7 +677,7 @@ nav .fa-solid{
     }
 
     .btn.btn2{
-        margin-top: 100px;
+        margin-top: 60px;
         padding: 12px 40px;
         font-size: 16px;
     }
